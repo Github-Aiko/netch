@@ -26,7 +26,7 @@ public class PcapController : Guard, IModeController
 
     public override string Name => "pcap2socks";
 
-    public ModeFeature Features => ModeFeature.SupportSocks5Auth;
+    public ModeFeature Features => 0;
 
     public async Task StartAsync(Socks5Server server, Mode mode)
     {

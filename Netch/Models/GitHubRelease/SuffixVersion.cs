@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace Netch.Models.NetchRelease;
+namespace Netch.Models.GitHubRelease;
 
 [Serializable]
 public struct SuffixVersion : IComparable, IComparable<SuffixVersion>

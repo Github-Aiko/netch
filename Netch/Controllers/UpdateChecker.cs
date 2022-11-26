@@ -2,7 +2,7 @@
 using System.Text;
 using System.Text.Json;
 using System.Text.RegularExpressions;
-using Netch.Models.NetchRelease;
+using Netch.Models.GitHubRelease;
 using Netch.Utils;
 
 namespace Netch.Controllers;
@@ -15,7 +15,7 @@ public static class UpdateChecker
     public const string Name = @"Netch";
     public const string Copyright = @"Copyright © 2019 - 2022";
 
-    public const string AssemblyVersion = @"1.9.8";
+    public const string AssemblyVersion = @"1.9.7";
     private const string Suffix = @"";
 
     public static readonly string Version = $"{AssemblyVersion}{(string.IsNullOrEmpty(Suffix) ? "" : $"-{Suffix}")}";
