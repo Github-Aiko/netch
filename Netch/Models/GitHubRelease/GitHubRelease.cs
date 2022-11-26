@@ -1,4 +1,4 @@
-﻿namespace Netch.Models.GitHubRelease;
+﻿namespace Netch.Models.NetchRelease;
 
 public class GitHubRelease
 {

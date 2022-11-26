@@ -2,7 +2,7 @@
 using System.Text;
 using System.Text.Json;
 using System.Text.RegularExpressions;
-using Netch.Models.GitHubRelease;
+using Netch.Models.NetchRelease;
 using Netch.Utils;
 
 namespace Netch.Controllers;

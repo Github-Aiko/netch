@@ -1,5 +1,5 @@
 ﻿#nullable disable
-namespace Netch.Models.GitHubRelease;
+namespace Netch.Models.NetchRelease;
 
 public class Asset
 {
